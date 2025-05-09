@@ -4,7 +4,7 @@ export default function RevealOnScroll({ children }) {
     const ref = useRef(null);
 
     useEffect(() => {
-        const observer = new IntersectionObserver((entry) => {
+        const observer = new IntersectionObserver(([entry]) => {
             if (entry.isIntersecting) {
                 ref.current.classList.add("visible");
             }
