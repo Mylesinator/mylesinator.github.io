@@ -2,7 +2,7 @@ import RevealOnScroll from "../RevealOnScroll";
 
 export default function About() {
     const frontendSkills = ["React", "Tailwind", "Bootstrap"];
-    const backendSkills = ["Node.js", "Express", "MongoDB", "SQL", "Deno", "Laravel"];
+    const backendSkills = ["Node.js", "Express.js", "MongoDB", "SQL", "Deno", "Laravel"];
 	const languages = ["JavaScript", "TypeScript", "Lua", "Luau", "C", "PHP"];
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -13,7 +13,7 @@ export default function About() {
                 </h2>
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                    <p className="text-gray-300 mb-6">lorem ipsum type shii</p>
+                    <p className="text-gray-300 mb-6">i'm a certified geeker tweaker</p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
@@ -77,8 +77,8 @@ export default function About() {
 
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold">I lowkey got nothing man 🤫</h4>
-                                <p>lorem ipsum again woohoo</p>
+                                <h4 className="font-semibold">Unemployed 4L ❤🤞</h4>
+                                <p>lorem ipsum</p>
                             </div>
                         </div>
                     </div>

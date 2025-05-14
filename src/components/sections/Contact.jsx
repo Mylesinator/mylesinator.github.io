@@ -10,11 +10,11 @@ export default function Contact() {
 
                 <form className="space-y-6">
                     <div className="relative">
-                        <input type="text" id="name" name="name" required className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-green-500 focus:bg-green-500/5"
+                        <input type="text" id="name" name="name" required className="w-full bg-white/5 mb-2 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-green-500 focus:bg-green-500/5"
                         placeholder="Name..."
                         />
 
-                        <input type="email" id="email" name="email" required className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-green-500 focus:bg-green-500/5"
+                        <input type="email" id="email" name="email" required className="w-full bg-white/5 mb-2 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-green-500 focus:bg-green-500/5"
                         placeholder="example@email.com"
                         />
 
