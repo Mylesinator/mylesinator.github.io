@@ -10,7 +10,7 @@ export default function Projects() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
-              <img src="digital_portfolio_wm/project_images/at_at.gif" alt="an image of a project" className="mb-4" />
+              <img src="./project_images/at_at.gif" alt="an image of a project" className="mb-4" />
 
               <h3 className="text-xl font-bold mb-2">
                 Star Wars AT-AT Animation
@@ -34,7 +34,7 @@ export default function Projects() {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
-              <img src="digital_portfolio_wm/project_images/wm_finance.png" alt="an image of a project" className="mb-4" />
+              <img src="./project_images/wm_finance.png" alt="an image of a project" className="mb-4" />
 
               <h3 className="text-xl font-bold mb-2">Finance Tracker (FBLA Competition)</h3>
 
@@ -56,7 +56,7 @@ export default function Projects() {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
-              <img src="digital_portfolio_wm/project_images/hangman.png" alt="an image of a project" className="mb-4" />
+              <img src="./project_images/hangman.png" alt="an image of a project" className="mb-4" />
 
               <h3 className="text-xl font-bold mb-2">Hangman Game</h3>
 
@@ -78,7 +78,7 @@ export default function Projects() {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
-		      <img src="digital_portfolio_wm/project_images/parallax.gif" alt="an image of a project" className="mb-4" />
+		      <img src="./project_images/parallax.gif" alt="an image of a project" className="mb-4" />
 
               <h3 className="text-xl font-bold mb-2">Parallax Animation</h3>
 
