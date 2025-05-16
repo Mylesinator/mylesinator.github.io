@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Mylesinator.github.io/digital_portfolio_wm",
+  "homepage": "https://Mylesinator.github.io/express_site",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && touch dist/.nojekyll",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
