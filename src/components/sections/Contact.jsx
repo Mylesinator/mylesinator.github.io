@@ -1,33 +1,33 @@
 import RevealOnScroll from "../RevealOnScroll";
 
 export default function Contact() {
-    return <section id="contact" className="min-h-screen flex items-center justify-center py-20">
-        <RevealOnScroll>
-            <div className="px-4 w-150">
-                <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent text-center">
-                    Get in Touch
-                </h2>
+    return (
+        <section id="contact" className="min-h-screen flex items-center justify-center py-20">
+            <RevealOnScroll>
+                <div className="px-4 w-200">
+                    <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent text-center">
+                        Contact Information
+                    </h2>
 
-                <form className="space-y-6">
-                    <div className="relative">
-                        <input type="text" id="name" name="name" required className="w-full bg-white/5 mb-2 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-green-500 focus:bg-green-500/5"
-                        placeholder="Name..."
-                        />
+                    <div className="space-y-4 text-white text-center border border-white/10 rounded px-6 py-8 hover:-translate-y-1 transition-all">
+                        <p className="text-lg">
+                            You're welcome to contact me via email or connect with me on professional networks.
+                        </p>
 
-                        <input type="email" id="email" name="email" required className="w-full bg-white/5 mb-2 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-green-500 focus:bg-green-500/5"
-                        placeholder="example@email.com"
-                        />
+                        <p>
+                            📧 <a href="mailto:mylesmarshall06@gmail.com" className="text-green-500 hover:underline">mylesmarshall06@gmail.com</a>
+                        </p>
 
-                        <textarea id="message" name="message" required rows={5} className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-green-500 focus:bg-green-500/5"
-                        placeholder="Your message here..."
-                        />
+                        <p>
+                            💼 <a href="https://www.linkedin.com/in/mylesmarshall06" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:underline">https://www.linkedin.com/in/mylesmarshall06</a>
+                        </p>
+
+                        <p>
+                            🧑‍💻 <a href="https://github.com/Mylesinator" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:underline">https://github.com/Mylesinator</a>
+                        </p>
                     </div>
-
-                    <button type="submit" className="w-full bg-green-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,246,130,0.4)]">
-                        Send Message
-                    </button>
-                </form>
-            </div>
-        </RevealOnScroll>
-    </section>
+                </div>
+            </RevealOnScroll>
+        </section>
+    );
 }

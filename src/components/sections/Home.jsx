@@ -9,7 +9,7 @@ export default function Home() {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Full Stack Web Developer
+			A full-stack web developer who specializes in developing efficient and scalable APIs, databases, and backend systems that power modern applications.
           </p>
 
           <div className="flex justify-center space-x-4">
