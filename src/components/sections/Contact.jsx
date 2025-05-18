@@ -9,7 +9,7 @@ export default function Contact() {
                         Contact Information
                     </h2>
 
-                    <div className="space-y-4 text-white text-center border border-white/10 rounded px-6 py-8 hover:-translate-y-1 transition-all">
+                    <div className="space-y-4 text-black dark:text-white text-center border border-black dark:border-white/10 rounded px-6 py-8 hover:-translate-y-1 transition-all">
                         <p className="text-lg">
                             You're welcome to contact me via email or connect with me on professional networks.
                         </p>

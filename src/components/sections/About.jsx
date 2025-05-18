@@ -13,15 +13,15 @@ export default function About() {
                     About Me
                 </h2>
 
-                <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                    <p className="text-gray-300 mb-6">
+                <div className="rounded-xl p-8 border border-black dark:border-white/10 hover:-translate-y-1 transition-all">
+                    <p className="text-black dark:text-gray-300 mb-6">
                         Knowledge-seeking developer passionate about Web & Game Development.
                         With a full-stack foundation and a curiosity-driven mindset, I love tackling complex problems and exploring new technologies.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Frontend</h3>
+                            <h3 className="text-xl font-bold mb-4 text-black dark:text-gray-100">Frontend</h3>
 
                             <div className="flex flex-wrap gap-2">
                                 {frontendSkills.map((tech, key) => (
@@ -33,7 +33,7 @@ export default function About() {
                         </div>
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Languages</h3>
+                            <h3 className="text-xl font-bold mb-4 text-black dark:text-gray-100">Languages</h3>
 
                             <div className="flex flex-wrap gap-2">
                                 {languages.map((lang, key) => (
@@ -45,7 +45,7 @@ export default function About() {
                         </div>
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Backend</h3>
+                            <h3 className="text-xl font-bold mb-4 text-black dark:text-gray-100">Backend</h3>
 
                             <div className="flex flex-wrap gap-2">
                                 {backendSkills.map((tech, key) => (
@@ -57,7 +57,7 @@ export default function About() {
                         </div>
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">Other Tools</h3>
+                            <h3 className="text-xl font-bold mb-4 text-black dark:text-gray-100">Other Tools</h3>
 
                             <div className="flex flex-wrap gap-2">
                                 {tools.map((tool, key) => (
@@ -71,10 +71,10 @@ export default function About() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Education</h3>
+                    <div className="p-6 rounded-xl border border-black dark:border-white/10 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4 text-black dark:text-gray-100">Education</h3>
 
-                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                        <ul className="list-disc list-inside text-black dark:text-gray-300 space-y-2">
                             <li>
                                 <strong>West-MEC Coding Program (2023-2025)</strong>
                             </li>
@@ -84,12 +84,13 @@ export default function About() {
                         </ul>
                     </div>
 
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+                    <div className="p-6 rounded-xl border border-black dark:border-white/10 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4 text-black dark:text-gray-100">Work Experience</h3>
 
-                        <div className="space-y-4 text-gray-300">
+                        <div className="space-y-4 text-black dark:text-gray-300">
                             <div>
                                 <h4 className="font-semibold">Unemployed 4L &#x2665;&#xfe0f;🤞</h4>
+                                <p>lorem ipsum</p>
                             </div>
                         </div>
                     </div>

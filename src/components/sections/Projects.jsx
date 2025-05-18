@@ -9,14 +9,14 @@ export default function Projects() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
+            <div className="p-6 rounded-xl border border-black dark:border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
               <img src="./project_images/at_at.gif" alt="an image of a project" className="mb-4" />
 
-              <h3 className="text-xl font-bold mb-2">
+              <h3 className="text-xl font-bold mb-2 text-black dark:text-gray-100">
                 Star Wars AT-AT Animation
               </h3>
 
-              <p className="text-gray-400 mb-4">Animation of an AT-AT walking across a snowy landscape. Animated via inverse kinematics.</p>
+              <p className="text-black dark:text-gray-400 mb-4">Animation of an AT-AT walking across a snowy landscape. Animated via inverse kinematics.</p>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {["HTML5", "JavaScript", "SVG Images"].map((tech, key) => (
@@ -33,12 +33,12 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
+            <div className="p-6 rounded-xl border border-black dark:border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
               <img src="./project_images/wm_finance.png" alt="an image of a project" className="mb-4" />
 
-              <h3 className="text-xl font-bold mb-2">Finance Tracker (FBLA Competition)</h3>
+              <h3 className="text-xl font-bold mb-2 text-black dark:text-gray-100">Finance Tracker (FBLA Competition)</h3>
 
-              <p className="text-gray-400 mb-4">Submit forms of income & expenses and generate reports for finances</p>
+              <p className="text-black dark:text-gray-400 mb-4">Submit forms of income & expenses and generate reports for finances</p>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {["HTML5", "JavaScript", "Node.js", "Express.js", "Chart.js"].map((tech, key) => (
@@ -55,12 +55,12 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
+            <div className="p-6 rounded-xl border border-black dark:border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
               <img src="./project_images/hangman.png" alt="an image of a project" className="mb-4" />
 
-              <h3 className="text-xl font-bold mb-2">Hangman Game</h3>
+              <h3 className="text-xl font-bold mb-2 text-black dark:text-gray-100">Hangman Game</h3>
 
-              <p className="text-gray-400 mb-4">Hangman game with words based on web development</p>
+              <p className="text-black dark:text-gray-400 mb-4">Hangman game with words based on web development</p>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {["HTML5", "JavaScript", "CSS3"].map((tech, key) => (
@@ -77,12 +77,12 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
+            <div className="p-6 rounded-xl border border-black dark:border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,246,130,0.2)] transition">
 		      <img src="./project_images/parallax.gif" alt="an image of a project" className="mb-4" />
 
-              <h3 className="text-xl font-bold mb-2">Parallax Animation</h3>
+              <h3 className="text-xl font-bold mb-2 text-black dark:text-gray-100">Parallax Animation</h3>
 
-              <p className="text-gray-400 mb-4">Procedurally generated hills, mountains and clouds using perlin noise.</p>
+              <p className="text-black dark:text-gray-400 mb-4">Procedurally generated hills, mountains and clouds using perlin noise.</p>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {["HTML5", "JavaScript", "Canvas API"].map((tech, key) => (

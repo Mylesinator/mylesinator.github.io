@@ -8,16 +8,16 @@ export default function Home() {
             Hi, I'm Myles Marshall
           </h1>
 
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+          <p className="text-black dark:text-gray-400 text-lg mb-8 max-w-lg mx-auto">
 			A full-stack web developer who specializes in developing efficient and scalable APIs, databases, and backend systems that power modern applications.
           </p>
 
           <div className="flex justify-center space-x-4">
-            <a href="#projects" className="bg-green-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,246,130,0.4)]">
+            <a href="#projects" className="bg-green-500 text-black dark:text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,246,130,0.4)]">
               View Projects
             </a>
 
-            <a href="#projects" className="border border-green-500/50 text-green-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,246,130,0.2)] hover:bg-green-500/10">
+            <a href="#contact" className="border border-green-600 text-green-700 dark:border-green-500/50 dark:text-green-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,246,130,0.2)] hover:bg-green-500/10">
               Contact Me
             </a>
           </div>
