@@ -1,0 +1,30 @@
+[
+    {
+      "img": "./project_images/at_at.gif",
+      "name": "Star Wars AT-AT Animation",
+      "desc": "Animation of an AT-AT walking across a snowy landscape. Animated via inverse kinematics.",
+      "techs": ["HTML5", "JavaScript"],
+      "link": "https://github.com/Mylesinator/polish_at-at"
+    },
+    {
+      "img": "./project_images/wm_finance.png",
+      "name": "Finance Tracker (FBLA Competition)",
+      "desc": "A page where you submit forms of income & expenses and generate reports for finances",
+      "techs": ["HTML5", "JavaScript", "CSS3", "Node.js", "Express.js", "Chart.js"],
+      "link": "https://github.com/Mylesinator/wm_fbla_finance"
+    },
+    {
+      "img": "./project_images/hangman.png",
+      "name": "Hangman Game",
+      "desc": "Hangman game with words based on web development",
+      "techs": ["HTML5", "JavaScript", "CSS3"],
+      "link": "https://github.com/Mylesinator/capstone_hangman"
+    },
+    {
+      "img": "./project_images/parallax.gif",
+      "name": "Parallax Animation",
+      "desc": "Procedurally generated hills, mountains and clouds using perlin noise",
+      "techs": ["HTML5", "JavaScript", "Canvas API"],
+      "link": "https://github.com/Mylesinator/procedural_animation"
+    }
+]
