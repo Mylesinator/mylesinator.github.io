@@ -1,7 +1,7 @@
 import RevealOnScroll from "../RevealOnScroll";
 
 export default function About() {
-    const frontendSkills = ["React", "Tailwind", "Bootstrap", "Phaser.js"];
+    const frontendSkills = ["React", "React Native", "Tailwind", "Bootstrap", "Phaser.js"];
     const backendSkills = ["Node.js", "Express.js", "MongoDB", "SQL", "Deno", "Laravel"];
 	const languages = ["JavaScript", "TypeScript", "Lua", "Luau", "C", "PHP"];
     const tools = ["Blender", "Visual Studio Code", "Neovim", "Vim", "Git", "NPM"];
