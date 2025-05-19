@@ -15,7 +15,7 @@ export default function About() {
 
                 <div className="rounded-xl p-8 border border-black dark:border-white/10 hover:-translate-y-1 transition-all">
                     <p className="text-black dark:text-gray-300 mb-6">
-                        Knowledge-seeking developer passionate about Web & Game Development.
+                        Solution-seeking developer passionate about Web & Game Development.
                         With a full-stack foundation and a curiosity-driven mindset, I love tackling complex problems and exploring new technologies.
                     </p>
 
